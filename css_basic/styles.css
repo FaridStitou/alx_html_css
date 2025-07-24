@@ -4,6 +4,10 @@ body, main{
 body{
   flex-direction: column;
 }
+header{
+  height: 40px;
+  text-align: center;
+}
 main{
   flex-direction: row;
   flex: auto;
@@ -18,3 +22,17 @@ article{
 aside{
   flex: 1;
 }
+p{
+  color: rgb(62, 62, 62);
+}
+ table{
+  margin-top: 18px;
+ }
+td{
+  width: 80px;
+  height: 25px;
+  border: 1px solid rgb(69, 67, 67);
+  background-color: rgb(220, 250, 240);
+  text-align: center;
+  padding-top: 5px;
+ }
